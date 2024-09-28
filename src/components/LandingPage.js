@@ -1,7 +1,10 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Slider from "react-slick";
+import AboutUs from './AboutUs';
+import WhyUs from './WhyUs'; 
+// Import WhyUs component
 import '../styles/LandingPage.css'; 
 
 // Importing images for healthy habits
@@ -12,15 +15,31 @@ import fitnessImage from '../assets/Fitness.jpg';
 import balancedMealImage from '../assets/balanced meal.jpg';
 
 const LandingPage = () => {
+  // State to manage visibility of About Us and Why Us content
+  const [showAboutUs, setShowAboutUs] = useState(false);
+  const [showWhyUs, setShowWhyUs] = useState(false);
+
   // Slider settings
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Number of images to show at a time
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000, // Time between slides (in milliseconds)
+    autoplaySpeed: 2000,
+  };
+
+  // Toggle About Us content
+  const handleAboutUsClick = () => {
+    setShowAboutUs(!showAboutUs);
+    setShowWhyUs(false);
+  };
+
+  // Toggle Why Us content
+  const handleWhyUsClick = () => {
+    setShowWhyUs(!showWhyUs);
+    setShowAboutUs(false);
   };
 
   return (
@@ -29,8 +48,9 @@ const LandingPage = () => {
         <h1>Peak Habits</h1>
         <nav>
           <Link to="/" className="nav-link">Home</Link>
-          <Link to="/about" className="nav-link">About Us</Link>
-          <Link to="/login" className="nav-link">Login/Signup</Link>
+          <Link to="#" onClick={handleAboutUsClick} className="nav-link">About Us</Link>
+          <Link to="#" onClick={handleWhyUsClick} className="nav-link">Why Us</Link>
+          <Link to="/login" className="nav-link">Login/Signup</Link> 
         </nav>
       </header>
 
@@ -39,7 +59,6 @@ const LandingPage = () => {
         <div className="get-set-grow">Get, Set, Grow !!!</div>
       </main>
 
-      {/* Healthy Habits Slider Section */}
       <section className="habit-slider">
         <Slider {...settings}>
           <div className="habit-slide">
@@ -63,9 +82,15 @@ const LandingPage = () => {
             <h4>Balanced Diet</h4>
           </div>
         </Slider>
-
       </section>
 
+      {/* Conditional Rendering of About Us and Why Us */}
+      {showAboutUs && <AboutUs />}
+      {showWhyUs && <WhyUs />} {/* Render Why Us content */}
+
+      <footer>
+        <p>&copy; 2024 Peak Habits. All Rights Reserved.</p>
+      </footer>
     </div>
   );
 };

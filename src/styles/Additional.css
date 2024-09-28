@@ -1,0 +1,43 @@
+.home, .about-us, .why-us {
+    background-color: #ded4aa; /* Yellow background */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px; /* Limit max width for consistency */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  }
+  
+  .home h2, .about-us h2, .why-us h2 {
+    font-size: 28px; /* Larger heading size */
+    color: white; /* Dark gray color for main headings */
+    margin-bottom: 15px; /* Space below heading */
+  }
+  
+  .home h3, .about-us h3, .why-us h3 {
+    font-size: 24px; /* Subheading size */
+    color: #4CAF50; /* Green color for subheadings */
+    margin-top: 15px; /* Space above subheading */
+  }
+  
+  .home p, .about-us p, .why-us p {
+    color: #212121; /* Dark gray for paragraph text */
+    font-size: 16px; /* Paragraph text size */
+    justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Center text inside the container */
+    line-height: 1.5; /* Improve readability */
+    margin-bottom: 15px; /* Space below paragraphs */
+  }
+  
+  .home ul, .about-us ul, .why-us ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove padding */
+  }
+  
+  .home li, .about-us li, .why-us li {
+    text-align: left; /* Left align list items */
+    margin: 10px 0; /* Space between list items */
+  }
+  
+
+  
