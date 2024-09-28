@@ -1,0 +1,102 @@
+.landing-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50; /* Green background for the header */
+    padding: 20px;
+}
+
+.nav-link {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.habit-slider {
+    
+    margin: -10px 0;
+}
+
+.habit-slide {
+    padding: 10px;
+}
+
+.habit-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* .habit-slider {
+    margin: 40px 0;
+  } */
+  
+  .habit-slider h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .habit-slides-container {
+    display: flex;               /* Use flexbox for layout */
+    flex-wrap: wrap;            /* Allow items to wrap */
+    justify-content: center;     /* Center the slides */
+  }
+  
+  .habit-slide {
+    text-align: center;
+    margin: 20px;              /* Space around each slide */
+    flex: 1 1 calc(30% - 40px); /* Responsive width, allows 3 slides per row */
+    max-width: 350px;          /* Optional: Limit the maximum width of each slide */
+  }
+  
+  /* Adjust image styling */
+  .habit-slide img {
+    width: 100%;
+    height: 200px;             /* Fixed height for all images */
+    object-fit: cover;         /* Maintain aspect ratio */
+    border-radius: 10px;       /* Rounded corners */
+    margin-bottom: 10px;       /* Space below each image */
+  }
+  
+  .habit-slide h4 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+
+  .main-content {
+    padding: 0;
+    margin: 0;
+}
+
+.motivation {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Reduce space between heading and 'Get, Set, Grow !!!' */
+}
+
+.get-set-grow {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Reduce space between this text and the slider */
+    cursor: pointer;
+    color: #4CAF50;
+}
+
+.habit-slider {
+    margin-top: 0;  /* Remove top margin to eliminate space above the slider */
+    padding-top: 0; /* Remove any top padding */
+}
+
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
