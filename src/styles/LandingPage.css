@@ -93,12 +93,13 @@ header {
 }
 
 
-footer {
-    background-color: #f1f1f1;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+.footer-bottom{
+  background-color: #4CAF50;
+  color:white;
+}
+.footer-links a {
+  text-decoration:none;
+ 
 }
 
 

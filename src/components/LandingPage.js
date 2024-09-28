@@ -88,9 +88,19 @@ const LandingPage = () => {
       {showAboutUs && <AboutUs />}
       {showWhyUs && <WhyUs />} {/* Render Why Us content */}
 
-      <footer>
-        <p>&copy; 2024 Peak Habits. All Rights Reserved.</p>
+      <footer className='footer-bottom'>
+      <p>Made by <strong>Techno Hack</strong> with <span className="love-symbol">❤</span></p>
+        <p>Powered by <strong>React</strong></p>
+        <div className="footer-links">
+          <a href="https://github.com/sanika2520/techno_hack" target="_blank">GitHub</a> <strong> | </strong>
+          <a href="mailto:sherlyshindal@gmail.com">Contact Us</a>
+        </div>
+        <div className="footer-bottom">
+          <p>© 2024 Techno Hack. All rights reserved.</p>
+        </div>
       </footer>
+
+
     </div>
   );
 };

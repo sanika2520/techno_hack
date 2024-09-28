@@ -22,7 +22,7 @@
   }
   
   .feature-button {
-    background-color: #92928e; /* Green background for buttons */
+    background-color: rgb(242, 137, 137); /* Green background for buttons */
     color: white;
     padding: 20px;
     border-radius: 10px;

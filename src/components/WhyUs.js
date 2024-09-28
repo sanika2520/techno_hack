@@ -23,8 +23,8 @@ const WhyUs = () => {
         </ul>
         <h3>User-Centric Design</h3>
         <p>Designed for simplicity and effectiveness, our app keeps your focus on building habits...</p>
-        <h3>Data-Driven Results</h3>
-        <p>Our AI-powered system analyzes your habit data...</p>
+        {/* <h3>Data-Driven Results</h3>
+        <p>Our AI-powered system analyzes your habit data...</p> */}
         <h3>Community Support</h3>
         <p>Join a growing community of like-minded individuals...</p>
       </section>
