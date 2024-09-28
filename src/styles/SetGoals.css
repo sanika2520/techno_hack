@@ -1,0 +1,93 @@
+.set-goal-container {
+    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px; /* Set a maximum width */
+    margin: auto; /* Center the form */
+  }
+  
+  h1 {
+    text-align: center; /* Center the heading */
+    color: #4CAF50; /* Green color for the heading */
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block; /* Block layout for labels */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Bold labels for clarity */
+  }
+  
+  input[type='text'],
+  select,
+  textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding for input fields */
+    margin-top: 5px; /* Space above input fields */
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green background for button */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: block; /* Block layout for button */
+    width: 100%; /* Full width for button */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  textarea {
+    resize: none; /* Prevent resizing */
+    height: 100px; /* Set a fixed height for the textarea */
+  }
+  
+  .goal-image {
+    width: 100%; /* Full width for the image */
+    border-radius: 10px 10px 0 0; /* Rounded corners for the top */
+    margin-bottom: 20px; /* Space below the image */
+  }
+  
+
+  .popup-message {
+    position: fixed; /* Fixed position for the popup */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the popup */
+    background-color: white; /* White background for the popup */
+    border: 2px solid #4CAF50; /* Green border */
+    padding: 20px; /* Padding inside the popup */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Shadow for better visibility */
+    z-index: 1000; /* Ensure the popup is above other elements */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .popup-message h2 {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .popup-message button {
+    margin-top: 10px; /* Space between the text and the button */
+    background-color: #4CAF50; /* Green button */
+    color: white; /* White text on the button */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .popup-message button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+

@@ -1,5 +1,5 @@
 .home, .about-us, .why-us {
-    background-color: #ded4aa; /* Yellow background */
+    background-color:  #f2f1a3;/* Yellow background */
     padding: 20px;
     margin: 20px auto;
     max-width: 900px; /* Limit max width for consistency */
@@ -15,7 +15,7 @@
   
   .home h3, .about-us h3, .why-us h3 {
     font-size: 24px; /* Subheading size */
-    color: #4CAF50; /* Green color for subheadings */
+    color: #45b049; /* Green color for subheadings */
     margin-top: 15px; /* Space above subheading */
   }
   
@@ -40,4 +40,36 @@
   }
   
 
-  
+  .why-us {
+    background-color: #f2f1a3; /* Yellow background */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px; /* Limit max width for consistency */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+    
+    display: flex; /* Use flexbox to control alignment */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text inside the container */
+}
+
+.why-us h2 {
+    font-size: 28px; /* Larger heading size */
+    color: white; /* Dark gray color for main headings */
+    margin-bottom: 15px; /* Space below heading */
+}
+
+.why-us h3 {
+    font-size: 24px; /* Subheading size */
+    color: #4CAF50; /* Green color for subheadings */
+    margin-top: 15px; /* Space above subheading */
+}
+
+.why-us p {
+    color: #212121; /* Dark gray for paragraph text */
+    font-size: 16px; /* Paragraph text size */
+    line-height: 1.5; /* Improve readability */
+    margin-bottom: 15px; /* Space below paragraphs */
+}

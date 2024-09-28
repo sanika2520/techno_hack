@@ -55,7 +55,7 @@ const LandingPage = () => {
       </header>
 
       <main className="main-content">
-        <h1 className="motivation">Build Healthy Habits for a Better You!</h1>
+        <h1 className="motivation">Stay Consistent, Stay Healthy!!</h1>
         <div className="get-set-grow">Get, Set, Grow !!!</div>
       </main>
 

@@ -23,9 +23,12 @@
 // export default App;
 
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Correctly using Routes and Route
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
 import LandingPage from './components/LandingPage';
-import LoginPage from './components/LoginPage'; // Assuming you have a LoginPage component
+import LoginPage from './components/LoginPage'; 
+import WelcomePage from './components/WelcomePage'; // Import WelcomePage
+import SetGoals from './components/SetGoals';
+
 
 function App() {
   return (
@@ -33,6 +36,8 @@ function App() {
       <Routes> {/* Correctly using Routes */}
         <Route path="/" element={<LandingPage />} /> {/* Route for LandingPage */}
         <Route path="/login" element={<LoginPage />} /> {/* Route for Login/Signup page */}
+        <Route path="/welcome" element={<WelcomePage />} /> {/* WelcomePage route */}
+        <Route path="/setgoals" element={<SetGoals />} /> {/* WelcomePage route */}
       </Routes>
     </Router>
   );

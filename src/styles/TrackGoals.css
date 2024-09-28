@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .track-goals-container {
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px; /* Fixed width */
+    text-align: center;
+  }
+  
+  h2 {
+    color: #4a4a4a; /* Darker text color */
+    margin-bottom: 20px;
+  }
+  
+  .goals-list {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .goal-item {
+    background-color: #e7f3fe; /* Light blue for goal items */
+    border: 1px solid #cce5ff; /* Light blue border */
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0; /* Space between goals */
+    text-align: left; /* Align text to left */
+  }
+  
+  .goal-title {
+    color: #007bff; /* Blue color for goal title */
+    margin: 0 0 10px 0; /* Margin below title */
+  }
+  
+  .goal-target, .goal-progress {
+    color: #333; /* Dark gray for other text */
+  }
+  
+  .progress-bar {
+    width: 100%; /* Full width for the progress bar */
+    height: 20px; /* Height of the progress bar */
+    margin-bottom: 10px; /* Space below progress bar */
+  }
+  
+  .progress-input {
+    width: 60px; /* Fixed width for input */
+    margin-right: 5px; /* Space to the right of the input */
+  }
+  
+  .update-button, .add-goal-button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover */
+  }
+  
+  .update-button:hover, .add-goal-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .completion-status {
+    color: #28a745; /* Green for completion status */
+    font-weight: bold; /* Bold text */
+    margin-top: 10px; /* Space above status */
+  }
+  
+  

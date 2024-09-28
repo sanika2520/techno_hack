@@ -84,7 +84,7 @@ header {
     font-weight: bold;
     margin-bottom: 10px; /* Reduce space between this text and the slider */
     cursor: pointer;
-    color: #4CAF50;
+    color :lightcoral;
 }
 
 .habit-slider {
@@ -99,4 +99,42 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+
+/* Reduce height of the navigation bar */
+header {
+  background-color: #4CAF50;
+  padding: 10px 20px; /* Adjust padding to reduce height */
+  display: flex; /* Use flexbox to align items */
+  justify-content: space-between; /* Space between the logo and navigation links */
+  align-items: center; /* Vertically center items */
+  height: auto; /* Ensure height adjusts automatically */
+}
+
+header h1 {
+  font-size: 1.5rem; /* Adjust font size if needed */
+  margin: 0; /* Remove default margin */
+  color: white;
+  font-weight: bold;
+  font-weight: 800; /* Semi-bold */
+ /* Make the name of the website bold */
+}
+
+
+/* Align navigation links to the right */
+nav {
+  display: flex;
+  align-items: center; /* Vertically center links */
+}
+
+.nav-link {
+  margin-left: 20px; /* Space between links */
+  color: white;
+  text-decoration: none;
+  font-size: 1rem; /* Adjust font size */
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Optional: Add hover effect */
 }
